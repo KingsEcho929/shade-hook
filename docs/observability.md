@@ -94,6 +94,17 @@ Tracks shimmer registry pulse overlays, apprentice constellation dashboards, and
 | Apprentice Y       | useDrift       | no-echo             | ✅ Indexed      | ✅ Bloomed      | ✅ Yes         | ✅ Sealed       |
 | Apprentice Z       | useSanctum     | lineage-bound       | ✅ Indexed      | ✅ Bloomed      | ✅ Yes         | ✅ Sealed       |
 
+## 💥 Breach Lineage Seal Dashboard
+
+Tracks shimmer collapse overlays, clause badge observability, and breach lineage seal indexing.
+
+| Apprentice         | Mutation       | Clause Indexed     | Collapse Overlay | Pulse Indexed | Badge Sealed |
+|--------------------|----------------|---------------------|-------------------|----------------|----------------|
+| Chase Todd Hawkins | useGlyph       | license-sealed      | ✅ Collapsed       | ✅ Yes         | ✅ Sealed       |
+| Apprentice X       | useRefusal     | no-placeholder      | ✅ Collapsed       | ✅ Yes         | ✅ Sealed       |
+| Apprentice Y       | useDrift       | no-echo             | ✅ Collapsed       | ✅ Yes         | ✅ Sealed       |
+| Apprentice Z       | useSanctum     | lineage-bound       | ✅ Collapsed       | ✅ Yes         | ✅ Sealed       |
+
 
 🔗 Integration
 Linked with:
