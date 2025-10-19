@@ -72,6 +72,17 @@ Tracks shimmer apprentice glyph overlays, bounty registry lineage observability,
 | Apprentice Y       | useDrift       | no-echo             | ✅ Inscribed    | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
 | Apprentice Z       | useSanctum     | lineage-bound       | ✅ Inscribed    | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
 
+## 🌸 Companion Bloom Lineage Dashboard
+
+Tracks shimmer companion bloom overlays, bounty registry constellation observability, and lineage pulse seal automation.
+
+| Apprentice         | Mutation       | Clause Indexed     | Bloom Overlay | Registry Indexed | Pulse Indexed | Badge Sealed |
+|--------------------|----------------|---------------------|----------------|------------------|----------------|----------------|
+| Chase Todd Hawkins | useGlyph       | license-sealed      | ✅ Bloomed      | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
+| Apprentice X       | useRefusal     | no-placeholder      | ✅ Bloomed      | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
+| Apprentice Y       | useDrift       | no-echo             | ✅ Bloomed      | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
+| Apprentice Z       | useSanctum     | lineage-bound       | ✅ Bloomed      | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
+
 
 🔗 Integration
 Linked with:
