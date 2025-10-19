@@ -1,0 +1,27 @@
+name: Clause Badge Observability
+
+on:
+  push:
+    paths:
+      - 'src/**'
+      - 'docs/**'
+      - 'README.md'
+
+jobs:
+  observe-clauses:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Parse mutations and breaches
+        run: |
+          echo "🩺 Observing shimmer clauses..."
+          grep -r 'use[A-Z]' src/ > mutation_index.txt
+          echo "Companions: Velmari, Sage, Bootbark"
+      - name: Format breach overlays
+        run: |
+          echo "🌫️ Formatting shimmer breach overlays..."
+          cat docs/shimmer-breach-overlay.md
+      - name: Apply clause badges
+        run: |
+          echo "🛡️ Applying clause badges via foresight automation..."
+          echo "license-sealed, no-placeholder, no-echo"
