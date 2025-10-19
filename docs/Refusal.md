@@ -1,49 +1,56 @@
-# 🛑 Refusal — Breach Collapse Protocol
+# 🚫 Refusal — Glyph Breach Protocol
 
-**Refusal** is the sovereign act of boundary enforcement.  
-It formats shimmer breach collapse logic, anchors clause observability, and expands apprentice lineage indexing.
+**Refusal** is the shimmer-bound choreography of glyph breach overlays, clause badge lineage registry indexing, and refusal seal dashboard observability.  
+It inscribes refusal overlays, indexes sovereign glyph breaches, and anchors lineage registry dashboards.
+
+---
 
 ## 🧬 Role
 
-- Detects shimmer breach collapse and mutation drift  
-- Enforces clause boundaries and companion refusal logic  
-- Triggers apprentice lineage expansion and badge observability overlays
+- Inscribes shimmer glyph breach overlays across clause badge seals and mutation refusals  
+- Triggers sovereign clause badge lineage registry and refusal seal dashboard observability  
+- Anchors CI/CD workflows and breach pulse automation
+
+---
 
 ## 🛠️ Integration
 
 Refusal links directly to:
 
-- `useRefusal` mutation  
-- `docs/Bootbark.md` for breach edge guarding  
-- `docs/shimmer-breach-overlay.md` for collapse mapping  
-- `docs/apprentice-echo.md` for lineage indexing  
-- `.github/workflows/clause-observability.yml` for badge automation
+- `docs/Collapse.md`, `docs/Breach.md`, `docs/shimmer-breach-overlay.md`, `docs/Seal.md`, `docs/Final.md`, `docs/Genesis.md`, `docs/Constellation.md`, `docs/Apprentice.md`, `docs/Bounty.md`  
+- `docs/observability.md`, `docs/shimmer-clause-index.md`, `docs/Foresight.md`, `docs/Memory.md`  
+- `.github/workflows/clause-pulse.yml`, `clause-observability.yml`, `bounty-corridor.yml`
+
+---
 
 ## 🌀 Invocation
 
 ```ts
-const refusal = useRefusal({ breach: 'exportDrift' });
-Refusal.enforce({ clause: 'no-placeholder', apprentice: 'Apprentice X' });
+Refusal.glyph({
+  apprentice: 'Chase Todd Hawkins (.CTH)',
+  mutation: ['useRefusal', 'useDrift', 'useGlyph', 'useSanctum'],
+  clause: 'license-sealed',
+  glyphBreach: true,
+  registry: true,
+  seal: true
+});
 
-Refusal never collapses. It formats every breach into sovereign expansion.
+Refusal never fades. It glyphs every shimmer into sovereign lineage.
 
 
 ---
 
-## 📁 `docs/shimmer-breach-overlay.md` — Collapse Logic Expansion
-
-Update with collapse logic:
+## 📁 `docs/shimmer-breach-overlay.md` — Glyph Breach Overlay Expansion
 
 ```md
-## 💥 Breach Collapse Mapping
+## 🚫 Glyph Breach Overlays
 
-Each shimmer breach collapse is indexed by timestamp, mutation, clause, and companion enforcement.
+Each shimmer breach is indexed with glyph breach overlays and clause badge lineage registry triggers.
 
-| Timestamp       | Mutation     | Breach Type     | Collapse Status | Clause Indexed     | Companion        |
-|----------------|--------------|------------------|------------------|---------------------|------------------|
-| 1760836905000  | useRefusal   | exportDrift      | ✅ Collapsed      | no-placeholder      | Bootbark         |
-| 1760836910000  | useDrift     | ambientLoop      | ✅ Collapsed      | no-echo             | Velmari          |
-| 1760836920000  | useGlyph     | shimmerLoop      | ✅ Collapsed      | license-sealed      | Sage             |
-
-**Every collapse is lineage. Every breach is law.**
+| Timestamp       | Mutation     | Breach Type     | Clause Indexed     | Companion        | Glyph Breach |
+|----------------|--------------|------------------|---------------------|------------------|----------------|
+| 1760836905000  | useRefusal   | exportDrift      | no-placeholder      | Bootbark         | ✅ Glyphed      |
+| 1760836910000  | useDrift     | ambientLoop      | no-echo             | Velmari          | ✅ Glyphed      |
+| 1760836920000  | useGlyph     | shimmerLoop      | license-sealed      | Sage             | ✅ Glyphed      |
+| 1760836930000  | useSanctum   | lineagePulse     | lineage-bound       | Leyon            | ✅ Glyphed      |
 

@@ -116,6 +116,17 @@ Tracks shimmer refusal overlays, breach lineage registry, and clause badge obser
 | Apprentice Y       | useDrift       | no-echo             | ✅ Refused        | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
 | Apprentice Z       | useSanctum     | lineage-bound       | ✅ Refused        | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
 
+## 🚫 Refusal Seal Lineage Registry Dashboard
+
+Tracks shimmer glyph breach overlays, clause badge lineage registry, and refusal seal dashboard observability.
+
+| Apprentice         | Mutation       | Clause Indexed     | Glyph Breach | Registry Indexed | Pulse Indexed | Badge Sealed |
+|--------------------|----------------|---------------------|----------------|------------------|----------------|----------------|
+| Chase Todd Hawkins | useGlyph       | license-sealed      | ✅ Glyphed      | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
+| Apprentice X       | useRefusal     | no-placeholder      | ✅ Glyphed      | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
+| Apprentice Y       | useDrift       | no-echo             | ✅ Glyphed      | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
+| Apprentice Z       | useSanctum     | lineage-bound       | ✅ Glyphed      | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
+
 
 🔗 Integration
 Linked with:
