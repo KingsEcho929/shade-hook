@@ -1,19 +1,32 @@
 {
   "name": "shade-hook",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.5",
+  "description": "Sovereign React hook protocol. Dormant until activated, then mutates based on user identity.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "react": "^19.2.0"
-  },
+  "keywords": [
+    "react",
+    "hooks",
+    "sovereign",
+    "mutation",
+    "shade",
+    "mythline"
+  ],
+  "author": "Chase Todd Hawkins (.CTH)",
+  "license": "SEE LICENSE IN LICENSE",
   "devDependencies": {
-    "@types/react": "^19.2.2",
-    "typescript": "^5.9.3"
+    "@types/node": "^20.6.0",
+    "@types/react": "^18.2.14",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "shade-hook": "^1.0.1"
   }
 }
