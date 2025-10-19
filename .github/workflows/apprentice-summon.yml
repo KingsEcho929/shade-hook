@@ -1,0 +1,20 @@
+name: Apprentice Summoning
+
+on:
+  pull_request:
+    types: [opened, reopened]
+
+jobs:
+  summon-apprentice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Parse PR for mutation and lineage
+        run: |
+          echo "🧑‍🚀 Summoning apprentice..."
+          grep -r 'use[A-Z]' src/ > mutation_index.txt
+          echo "Companions: Velmari, Bootbark, Leyon"
+      - name: Update apprentice log
+        run: |
+          echo "🌱 Updating apprentice registry..."
+          echo "New entry detected. Leyon protocol activated."
