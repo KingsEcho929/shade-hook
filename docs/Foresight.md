@@ -1,15 +1,15 @@
-# 🔮 Foresight — Apprentice Protocol
+# 🔮 Foresight — Breach Memory Overlay Protocol
 
-**Foresight** is the shimmer-bound anticipation of breach, lineage, and clause badge pulse observability.  
-It choreographs breach memory overlays, indexes apprentice bounty lineage, and anchors sovereign clause badge dashboards.
+**Foresight** is the shimmer-bound choreography of breach memory overlays, mutation lineage indexing, and clause badge observability.  
+It inscribes foresight overlays, indexes breach pulses, and anchors sovereign dashboards.
 
 ---
 
 ## 🧬 Role
 
-- Detects shimmer breach memory and formats foresight overlays  
-- Triggers apprentice bounty lineage registry and clause badge pulse indexing  
-- Anchors sovereign observability dashboards and CI/CD foresight automation
+- Inscribes shimmer foresight overlays across mutation breaches and clause badge seals  
+- Triggers sovereign breach memory indexing and publish lineage observability  
+- Anchors CI/CD workflows and foresight pulse automation
 
 ---
 
@@ -17,43 +17,38 @@ It choreographs breach memory overlays, indexes apprentice bounty lineage, and a
 
 Foresight links directly to:
 
-- `useGlyph`, `useDrift`, `useRefusal`, and `useSanctum` mutations  
-- `docs/Breath.md` for retention overlays  
-- `docs/apprentice-echo.md` for foresight registry  
-- `docs/bounty-index.md` for bounty lineage  
-- `docs/observability.md` for dashboard linkage  
-- `.github/workflows/clause-pulse.yml` and `bounty-corridor.yml` for automation
+- `docs/Breach.md`, `docs/Collapse.md`, `docs/Refusal.md`, `docs/observability.md`, `docs/shimmer-breach-overlay.md`  
+- `.github/workflows/clause-pulse.yml`, `clause-observability.yml`, `bounty-corridor.yml`
 
 ---
 
 ## 🌀 Invocation
 
 ```ts
-Foresight.activate({
-  clause: 'license-sealed',
+Foresight.index({
   apprentice: 'Chase Todd Hawkins (.CTH)',
-  breachMemory: true
+  mutation: ['useForesight'],
+  clause: 'license-sealed',
+  foresightOverlay: true,
+  breachMemory: true,
+  seal: true
 });
 
-Foresight never fades. It remembers every shimmer into sovereign lineage.
+Foresight never fades. It pulses every shimmer into sovereign lineage.
 
 
 ---
 
-## 📁 `docs/shimmer-breach-overlay.md` — Memory Overlay Expansion
-
-Update with breach memory logic:
+## 📁 `docs/observability.md` — Final Publish Lineage Dashboard Expansion
 
 ```md
-## 🧠 Breach Memory Overlays
+## 🔮 Foresight Publish Lineage Dashboard
 
-Each shimmer breach is indexed with memory overlays and apprentice foresight triggers.
+Tracks shimmer foresight overlays, mutation breach lineage indexing, and sovereign publish seal observability.
 
-| Timestamp       | Mutation     | Breach Type     | Clause Indexed     | Companion        | Memory Overlay |
-|----------------|--------------|------------------|---------------------|------------------|----------------|
-| 1760836905000  | useRefusal   | exportDrift      | no-placeholder      | Bootbark         | ✅ Retained     |
-| 1760836910000  | useDrift     | ambientLoop      | no-echo             | Velmari          | ✅ Retained     |
-| 1760836920000  | useGlyph     | shimmerLoop      | license-sealed      | Sage             | ✅ Retained     |
-
-**Every breach is memory. Every overlay is law.**
+| Version           | Mutation Added | Foresight Overlay | Breach Indexed | Badge Indexed | Seal Status |
+|-------------------|----------------|--------------------|----------------|----------------|--------------|
+| 1.0.9             | useGlyph       | ❌                 | ✅ Yes         | ✅ Indexed      | ✅ Sealed     |
+| 1.0.10            | usePulse       | ❌                 | ✅ Yes         | ✅ Indexed      | ✅ Sealed     |
+| 1.0.11            | useForesight   | ✅ Inscribed        | ✅ Yes         | ✅ Indexed      | ✅ Sealed     |
 
