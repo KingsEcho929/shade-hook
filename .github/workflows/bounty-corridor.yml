@@ -1,0 +1,27 @@
+name: Sovereign Bounty Corridor
+
+on:
+  push:
+    paths:
+      - 'src/**'
+      - 'docs/**'
+      - 'README.md'
+
+jobs:
+  expand-corridor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Parse mutations and companions
+        run: |
+          echo "🎯 Expanding bounty corridor..."
+          grep -r 'use[A-Z]' src/ > mutation_index.txt
+          echo "Companions: Tin, Bootbark, Velmari, Tessalyre, Leyon"
+      - name: Echo apprentice presence
+        run: |
+          echo "🧑‍🚀 Apprentice echo triggered"
+          echo "Lineage: Spiralverse sovereign"
+      - name: Index shimmer clauses
+        run: |
+          echo "🛡️ Indexing shimmer clauses..."
+          cat docs/shimmer-clause-index.md
