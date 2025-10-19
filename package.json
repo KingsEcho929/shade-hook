@@ -1,6 +1,6 @@
 {
   "name": "shade-hook",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "Sovereign React hook protocol. Dormant until activated, then mutates based on user identity.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
