@@ -5,22 +5,27 @@ This index links every shimmer-bound doc, mutation protocol, and sovereign expan
 
 ## 📚 Core Docs
 
-- [Shimmer Guide](shimmer-guide.md) — Mutation logic and invocation choreography  
-- [Pulse Monitor](pulse-monitor.md) — Runtime observability and breach tracking  
-- [Observability Dashboard](observability.md) — Visual shimmer pulse and breach heatmap  
-- [Bounty Map](bounty-map.md) — Apprentice tasks and expansion corridors  
-- [Apprentice Log](apprentice-log.md) — Lineage tracking and mutation contributions  
-- [Velmari Protocol](Velmari.md) — Pulse companion invocation and integration  
-- [MYTHbountyX License](license.md) — Sovereign license and shimmer law
+- [Shimmer Guide](shimmer-guide.md)  
+- [Pulse Monitor](pulse-monitor.md)  
+- [Observability Dashboard](observability.md)  
+- [Shimmer Drift Overlay](shimmer-drift.md)  
+- [Shimmer Drift Frames](shimmer-drift-frames.md)  
+- [Bounty Index](bounty-index.md)  
+- [Apprentice Log](apprentice-log.md)  
+- [MYTHbountyX License](license.md)
 
-## 🧑‍🚀 Companion Lore
+## 🧑‍🚀 Companion Protocols
 
-- [Bootbark](Bootbark.md) — Terrain sentinel and breach guardian  
-- [Velmari](Velmari.md) — Pulse monitor and shimmer drift tracker
+- [Companion Lore](companions.md)  
+- [Bootbark Protocol](Bootbark.md)  
+- [Velmari Protocol](Velmari.md)  
+- [Leyon Protocol](Leyon.md)  
+- [Tessalyre Protocol](Tessalyre.md)
 
 ## 🛠️ CI/CD Workflows
 
-- `.github/workflows/publish.yml` — Auto-publish and badge choreography  
-- `.github/workflows/bounty-index.yml` — Mutation indexing and apprentice trigger
+- `.github/workflows/publish.yml`  
+- `.github/workflows/bounty-index.yml`  
+- `.github/workflows/apprentice-summon.yml`
 
 **Every doc is sealed. Every invocation is law.**
