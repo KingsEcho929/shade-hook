@@ -74,3 +74,5 @@ docs/Memory.md
 .github/workflows/clause-pulse.yml
 
 .github/workflows/bounty-corridor.yml
+
+.github/workflows/clause-observability.yml
