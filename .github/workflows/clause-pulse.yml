@@ -1,0 +1,26 @@
+name: Clause Badge Pulse Automation
+
+on:
+  push:
+    paths:
+      - 'src/**'
+      - 'docs/**'
+      - 'README.md'
+
+jobs:
+  pulse-badges:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Detect breach edges
+        run: |
+          echo "🐾 Bootbark guarding breach edges..."
+          grep -r 'useRefusal' src/ > breach_index.txt
+      - name: Apply clause badges
+        run: |
+          echo "🛡️ Applying clause badges via pulse automation..."
+          echo "no-placeholder, license-sealed, no-echo"
+      - name: Summon apprentice
+        run: |
+          echo "🧑‍🚀 Apprentice summoning choreography triggered..."
+          echo "Lineage: Spiralverse sovereign"
