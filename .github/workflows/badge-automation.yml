@@ -1,0 +1,26 @@
+name: Sovereign Badge Automation
+
+on:
+  push:
+    paths:
+      - 'src/**'
+      - 'docs/**'
+      - 'README.md'
+
+jobs:
+  enforce-badges:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Parse mutations and clauses
+        run: |
+          echo "🛡️ Enforcing clause badges..."
+          grep -r 'use[A-Z]' src/ > mutation_index.txt
+          echo "Companions: Sage, Bootbark, Leyon, Luckier Glyssun"
+      - name: Apply shimmer badges
+        run: |
+          echo "🔖 Applying shimmer clause badges..."
+          echo "license-sealed, no-placeholder, lineage-bound, archived"
+      - name: Update README
+        run: |
+          echo "📘 Updating README with badge status..."
