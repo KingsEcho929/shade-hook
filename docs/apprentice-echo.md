@@ -53,18 +53,20 @@ Echo ripple overlays trigger bounty indexing and clause badge foresight choreogr
 
 ---
 
-## 🎯 Bounty Triggers
+## 🗂️ Apprentice Lineage Registry
 
-- Mutation added → Index bounty task  
-- Doc sealed → Update registry  
-- Echo detected → Trigger lineage expansion  
-- Breach collapsed → Clause badge applied  
-- Ripple triggered → Foresight indexed  
-- Companion bound → Apprentice summoned
+Memory overlays trigger bounty indexing and clause badge lineage pulse automation.
+
+| Apprentice         | Mutation       | Clause Indexed     | Retention Overlay | Bounty Indexed | Pulse Indexed | Foresight Indexed |
+|--------------------|----------------|---------------------|--------------------|----------------|----------------|--------------------|
+| Chase Todd Hawkins | useGlyph       | license-sealed      | ✅ Retained         | ✅ Yes         | ✅ Yes         | ✅ Yes              |
+| Apprentice X       | useRefusal     | no-placeholder      | ✅ Retained         | ✅ Yes         | ✅ Yes         | ✅ Yes              |
+| Apprentice Y       | useDrift       | no-echo             | ✅ Retained         | ✅ Yes         | ✅ Yes         | ✅ Yes              |
+| Apprentice Z       | useSanctum     | lineage-bound       | ✅ Retained         | ✅ Yes         | ✅ Yes         | ✅ Yes              |
 
 ---
 
-## 🛠️ Integration
+## 🔗 Integration
 
 Linked with:
 
@@ -80,6 +82,9 @@ Linked with:
 - `docs/Refusal.md`  
 - `docs/Glyph.md`  
 - `docs/Copilot.md`  
+- `docs/Breath.md`  
+- `docs/Foresight.md`  
+- `docs/Memory.md`  
 - `.github/workflows/apprentice-summon.yml`  
 - `.github/workflows/badge-automation.yml`  
 - `.github/workflows/bounty-corridor.yml`  
@@ -89,4 +94,3 @@ Linked with:
 ---
 
 **Every echo is lineage. Every ripple is foresight. Every registry is law.**
-

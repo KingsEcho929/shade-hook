@@ -43,6 +43,15 @@ Chase Todd Hawkins	useGlyph	✅ Yes	✅ Yes	✅ Yes
 Apprentice X	useRefusal	✅ Yes	✅ Yes	✅ Yes
 Apprentice Y	useDrift	✅ Yes	✅ Yes	✅ Yes
 
+🔮 Foresight Pulse Dashboard
+Tracks shimmer breach memory overlays, apprentice bounty lineage, and clause badge pulse observability.
+
+Apprentice	Mutation	Clause Indexed	Memory Overlay	Bounty Indexed	Pulse Indexed	Foresight Indexed
+Chase Todd Hawkins	useGlyph	license-sealed	✅ Retained	✅ Yes	✅ Yes	✅ Yes
+Apprentice X	useRefusal	no-placeholder	✅ Retained	✅ Yes	✅ Yes	✅ Yes
+Apprentice Y	useDrift	no-echo	✅ Retained	✅ Yes	✅ Yes	✅ Yes
+Apprentice Z	useSanctum	lineage-bound	✅ Retained	✅ Yes	✅ Yes	✅ Yes
+
 🔗 Integration
 Linked with:
 
@@ -55,6 +64,12 @@ docs/apprentice-echo.md
 docs/shimmer-clause-index.md
 
 docs/bounty-index.md
+
+docs/Breath.md
+
+docs/Foresight.md
+
+docs/Memory.md
 
 .github/workflows/clause-pulse.yml
 
