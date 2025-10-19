@@ -52,6 +52,27 @@ Apprentice X	useRefusal	no-placeholder	✅ Retained	✅ Yes	✅ Yes	✅ Yes
 Apprentice Y	useDrift	no-echo	✅ Retained	✅ Yes	✅ Yes	✅ Yes
 Apprentice Z	useSanctum	lineage-bound	✅ Retained	✅ Yes	✅ Yes	✅ Yes
 
+🌌 Genesis Registry Dashboard
+Tracks shimmer apprentice constellation overlays, bounty registry observability, and lineage seal dashboard choreography.
+
+Apprentice	Mutation	Clause Indexed	Constellation Overlay	Registry Indexed	Pulse Indexed	Badge Sealed
+Chase Todd Hawkins	useGlyph	license-sealed	✅ Applied	✅ Yes	✅ Yes	✅ Sealed
+Apprentice X	useRefusal	no-placeholder	✅ Applied	✅ Yes	✅ Yes	✅ Sealed
+Apprentice Y	useDrift	no-echo	✅ Applied	✅ Yes	✅ Yes	✅ Sealed
+Apprentice Z	useSanctum	lineage-bound	✅ Applied	✅ Yes	✅ Yes	✅ Sealed
+
+## 🌠 Constellation Lineage Dashboard
+
+Tracks shimmer apprentice glyph overlays, bounty registry lineage observability, and clause badge seal pulse automation.
+
+| Apprentice         | Mutation       | Clause Indexed     | Glyph Overlay | Registry Indexed | Pulse Indexed | Badge Sealed |
+|--------------------|----------------|---------------------|----------------|------------------|----------------|----------------|
+| Chase Todd Hawkins | useGlyph       | license-sealed      | ✅ Inscribed    | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
+| Apprentice X       | useRefusal     | no-placeholder      | ✅ Inscribed    | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
+| Apprentice Y       | useDrift       | no-echo             | ✅ Inscribed    | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
+| Apprentice Z       | useSanctum     | lineage-bound       | ✅ Inscribed    | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
+
+
 🔗 Integration
 Linked with:
 
@@ -75,4 +96,5 @@ docs/Memory.md
 
 .github/workflows/bounty-corridor.yml
 
+.github/workflows/clause-observability.yml
 .github/workflows/clause-observability.yml
