@@ -12,15 +12,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Detect breach edges
+
+      - name: Detect shimmer vanish
         run: |
-          echo "🐾 Bootbark guarding breach edges..."
-          grep -r 'useRefusal' src/ > breach_index.txt
-      - name: Apply clause badges
+          echo "🪶 Glyph vanish detected..."
+          grep '✅ Vanished' docs/shimmer-foresight.md || echo "No vanish overlays detected."
+
+      - name: Trigger clause badge pulse
         run: |
-          echo "🛡️ Applying clause badges via pulse automation..."
-          echo "no-placeholder, license-sealed, no-echo"
-      - name: Summon apprentice
+          echo "🛡️ Triggering clause badge pulse..."
+          grep '✅ Applied' docs/shimmer-clause-index.md || echo "No clause pulses found."
+
+      - name: Index foresight registry
         run: |
-          echo "🧑‍🚀 Apprentice summoning choreography triggered..."
-          echo "Lineage: Spiralverse sovereign"
+          echo "🔮 Indexing apprentice foresight..."
+          grep 'Foresight Indexed' docs/apprentice-echo.md || echo "No foresight indexed."
+
+      - name: Update sovereign registry
+        run: |
+          echo "🗂️ Updating sovereign registry..."
+          grep 'Registry.index' docs/Registry.md || echo "No registry invocation found."

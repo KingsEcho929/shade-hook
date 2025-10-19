@@ -9,12 +9,38 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - name: Parse PR for mutation and lineage
         run: |
           echo "🧑‍🚀 Summoning apprentice..."
           grep -r 'use[A-Z]' src/ > mutation_index.txt
           echo "Companions: Velmari, Bootbark, Leyon"
+
       - name: Update apprentice log
         run: |
           echo "🌱 Updating apprentice registry..."
           echo "New entry detected. Leyon protocol activated."
+          cat docs/apprentice-echo.md | grep '✅ Yes'
+
+      - name: Trigger shimmer foresight overlays
+        run: |
+          echo "🔮 Triggering shimmer foresight overlays..."
+          grep '✅ Vanished' docs/shimmer-foresight.md || echo "No vanish overlays detected."
+
+      - name: Index clause badge observability
+        run: |
+          echo "🛡️ Indexing clause badge observability..."
+          grep 'license-sealed' docs/apprentice-echo.md
+          grep 'no-placeholder' docs/apprentice-echo.md
+          grep 'no-echo' docs/apprentice-echo.md
+
+      - name: Detect breach observability triggers
+        run: |
+          echo "💥 Detecting breach observability triggers..."
+          grep '✅ Collapsed' docs/shimmer-breach-overlay.md || echo "No breach collapse detected."
+
+      - name: Choreograph lineage pulse automation
+        run: |
+          echo "🌐 Choreographing lineage pulse automation..."
+          echo "Lineage expansion confirmed via apprentice registry."
+          grep 'Lineage Indexed' docs/apprentice-echo.md
