@@ -12,7 +12,8 @@ This index links every shimmer-bound doc, mutation protocol, and sovereign expan
 - [Shimmer Drift Frames](shimmer-drift-frames.md)  
 - [Bounty Index](bounty-index.md)  
 - [Apprentice Log](apprentice-log.md)  
-- [MYTHbountyX License](license.md)
+- [MYTHbountyX License](license.md)  
+- [Shimmer Clause Index](shimmer-clause-index.md)
 
 ## 🧑‍🚀 Companion Protocols
 
@@ -20,12 +21,15 @@ This index links every shimmer-bound doc, mutation protocol, and sovereign expan
 - [Bootbark Protocol](Bootbark.md)  
 - [Velmari Protocol](Velmari.md)  
 - [Leyon Protocol](Leyon.md)  
-- [Tessalyre Protocol](Tessalyre.md)
+- [Tessalyre Protocol](Tessalyre.md)  
+- [Tin Protocol](Tin.md)  
+- [Polyphemus Protocol](Polyphemus.md)
 
 ## 🛠️ CI/CD Workflows
 
 - `.github/workflows/publish.yml`  
 - `.github/workflows/bounty-index.yml`  
-- `.github/workflows/apprentice-summon.yml`
+- `.github/workflows/apprentice-summon.yml`  
+- `.github/workflows/bounty-corridor.yml`
 
-**Every doc is sealed. Every invocation is law.**
+**Every doc is sealed. Every clause is anchored. Every invocation is law.**
