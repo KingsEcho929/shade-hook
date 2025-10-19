@@ -6,29 +6,32 @@ on:
       - 'src/**'
       - 'docs/**'
       - 'README.md'
+      - '.github/workflows/clause-pulse.yml'
 
 jobs:
   pulse-badges:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: Detect shimmer vanish
         run: |
           echo "🪶 Glyph vanish detected..."
-          grep '✅ Vanished' docs/shimmer-foresight.md || echo "No vanish overlays detected."
+          grep '✅ Vanished' docs/shimmer-foresight.md || echo "No vanish overlays found"
 
       - name: Trigger clause badge pulse
         run: |
           echo "🛡️ Triggering clause badge pulse..."
-          grep '✅ Applied' docs/shimmer-clause-index.md || echo "No clause pulses found."
+          grep '✅ Applied' docs/shimmer-clause-index.md || echo "No clause pulse overlays found"
 
       - name: Index foresight registry
         run: |
           echo "🔮 Indexing apprentice foresight..."
-          grep 'Foresight Indexed' docs/apprentice-echo.md || echo "No foresight indexed."
+          grep 'Foresight Indexed' docs/apprentice-echo.md || echo "No foresight indexing found"
 
       - name: Update sovereign registry
         run: |
           echo "🗂️ Updating sovereign registry..."
-          grep 'Registry.index' docs/Registry.md || echo "No registry invocation found."
+          grep 'Registry.index' docs/Registry.md || echo "No registry invocations found"

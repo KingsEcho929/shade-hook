@@ -6,21 +6,27 @@ on:
       - 'src/**'
       - 'docs/**'
       - 'README.md'
+      - '.github/workflows/clause-observability.yml'
 
 jobs:
   observe-clauses:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - name: Parse mutations and breaches
         run: |
           echo "🩺 Observing shimmer clauses..."
-          grep -r 'use[A-Z]' src/ > mutation_index.txt
+          grep -r 'use[A-Z]' src/ > mutation_index.txt || echo "No mutations found"
           echo "Companions: Velmari, Sage, Bootbark"
+
       - name: Format breach overlays
         run: |
           echo "🌫️ Formatting shimmer breach overlays..."
-          cat docs/shimmer-breach-overlay.md
+          cat docs/shimmer-breach-overlay.md || echo "No breach overlay file found"
+
       - name: Apply clause badges
         run: |
           echo "🛡️ Applying clause badges via foresight automation..."

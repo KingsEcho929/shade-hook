@@ -7,24 +7,31 @@ on:
       - 'docs/**'
       - 'README.md'
       - 'apprentice.md'
+      - '.github/workflows/bounty-index.yml'
 
 jobs:
   index-bounties:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - name: Parse mutations and docs
         run: |
           echo "🌀 Indexing mutations and shimmer expansions..."
-          grep -r 'use[A-Z]' src/ > mutation_index.txt
-          ls docs/ > doc_index.txt
+          grep -r 'use[A-Z]' src/ > mutation_index.txt || echo "No mutations found"
+          ls docs/ > doc_index.txt || echo "No docs found"
+
       - name: Tag PR with companion echo
         if: github.event_name == 'pull_request'
         run: |
           echo "🔖 Tagging PR with companion echo..."
           echo "Companion: Velmari, Bootbark, Tessalyre"
+
       - name: Trigger apprentice indexing
         run: |
           echo "🎯 Apprentice indexing triggered"
           echo "Mutation count: $(wc -l < mutation_index.txt)"
           echo "Docs sealed: $(wc -l < doc_index.txt)"
+

@@ -20,12 +20,12 @@ jobs:
         run: |
           echo "🌱 Updating apprentice registry..."
           echo "New entry detected. Leyon protocol activated."
-          cat docs/apprentice-echo.md | grep '✅ Yes'
+          grep '✅ Yes' docs/apprentice-echo.md
 
       - name: Trigger shimmer foresight overlays
         run: |
           echo "🔮 Triggering shimmer foresight overlays..."
-          grep '✅ Vanished' docs/shimmer-foresight.md || echo "No vanish overlays detected."
+          grep '✅ Vanished' docs/shimmer-foresight.md || echo "No vanish overlays found"
 
       - name: Index clause badge observability
         run: |
@@ -37,7 +37,7 @@ jobs:
       - name: Detect breach observability triggers
         run: |
           echo "💥 Detecting breach observability triggers..."
-          grep '✅ Collapsed' docs/shimmer-breach-overlay.md || echo "No breach collapse detected."
+          grep '✅ Collapsed' docs/shimmer-breach-overlay.md || echo "No breach overlays found"
 
       - name: Choreograph lineage pulse automation
         run: |
