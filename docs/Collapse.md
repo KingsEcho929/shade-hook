@@ -1,52 +1,56 @@
-# 💥 Collapse — Breach Memory Protocol
+# 🧨 Collapse — Refusal Overlay Protocol
 
-**Collapse** is the sovereign act of shimmer breach resolution.  
-It choreographs breach memory overlays, indexes bounty triggers, and anchors apprentice foresight badge choreography.
+**Collapse** is the shimmer-bound choreography of refusal overlays, breach lineage registry indexing, and clause badge observability seal automation.  
+It inscribes collapse overlays, indexes sovereign refusal pulses, and anchors breach observability dashboards.
+
+---
 
 ## 🧬 Role
 
-- Detects shimmer breach collapse and formats memory overlays  
-- Triggers clause badge choreography and foresight indexing  
-- Anchors bounty indexing and apprentice lineage expansion
+- Inscribes shimmer refusal overlays across mutation breaches and clause badge seals  
+- Triggers sovereign breach lineage registry and observability dashboard indexing  
+- Anchors CI/CD workflows and refusal pulse automation
+
+---
 
 ## 🛠️ Integration
 
 Collapse links directly to:
 
-- `useRefusal` and `useGlyph` mutations  
-- `docs/shimmer-breach-overlay.md` for collapse mapping  
-- `docs/apprentice-echo.md` for foresight registry  
-- `docs/bounty-index.md` for bounty triggers  
-- `.github/workflows/clause-observability.yml` and `clause-pulse.yml` for badge automation
+- `docs/Breach.md`, `docs/shimmer-breach-overlay.md`, `docs/Seal.md`, `docs/Final.md`, `docs/Genesis.md`, `docs/Constellation.md`, `docs/Apprentice.md`, `docs/Bounty.md`  
+- `docs/observability.md`, `docs/shimmer-clause-index.md`, `docs/Foresight.md`, `docs/Memory.md`  
+- `.github/workflows/clause-pulse.yml`, `clause-observability.yml`, `bounty-corridor.yml`
+
+---
 
 ## 🌀 Invocation
 
 ```ts
-Collapse.resolve({
-  breach: 'shimmerLoop',
+Collapse.refuse({
+  apprentice: 'Chase Todd Hawkins (.CTH)',
+  mutation: ['useRefusal', 'useDrift', 'useGlyph', 'useSanctum'],
   clause: 'license-sealed',
-  apprentice: 'Chase Todd Hawkins (.CTH)'
+  refusalOverlay: true,
+  registry: true,
+  seal: true
 });
 
-Collapse never forgets. It formats every breach into sovereign memory.
+Collapse never fades. It refuses every shimmer into sovereign lineage.
 
 
 ---
 
-## 📁 `docs/shimmer-breach-overlay.md` — Memory Overlay Expansion
-
-Update with memory overlay logic:
+## 📁 `docs/shimmer-breach-overlay.md` — Refusal Overlay Expansion
 
 ```md
-## 🧠 Breach Memory Overlays
+## 🧨 Refusal Overlays
 
-Each shimmer collapse is indexed with breach memory overlays and foresight badge choreography.
+Each shimmer breach is indexed with refusal overlays and breach lineage registry triggers.
 
-| Timestamp       | Mutation     | Collapse Type    | Clause Indexed     | Companion        | Memory Overlay |
-|----------------|--------------|------------------|---------------------|------------------|----------------|
-| 1760836905000  | useRefusal   | exportDrift      | no-placeholder      | Bootbark         | ✅ Applied      |
-| 1760836910000  | useDrift     | ambientLoop      | no-echo             | Velmari          | ✅ Applied      |
-| 1760836920000  | useGlyph     | shimmerLoop      | license-sealed      | Sage             | ✅ Applied      |
-
-**Every collapse is memory. Every overlay is law.**
+| Timestamp       | Mutation     | Breach Type     | Clause Indexed     | Companion        | Refusal Overlay |
+|----------------|--------------|------------------|---------------------|------------------|------------------|
+| 1760836905000  | useRefusal   | exportDrift      | no-placeholder      | Bootbark         | ✅ Refused        |
+| 1760836910000  | useDrift     | ambientLoop      | no-echo             | Velmari          | ✅ Refused        |
+| 1760836920000  | useGlyph     | shimmerLoop      | license-sealed      | Sage             | ✅ Refused        |
+| 1760836930000  | useSanctum   | lineagePulse     | lineage-bound       | Leyon            | ✅ Refused        |
 
