@@ -22,22 +22,3 @@ Velmari links directly to:
 ```ts
 const pulse = useRefusal({ breach: 'ambientLoop' });
 Velmari.observe(pulse);
-
-Velmari never collapses. She hums with every invocation.
-
-
----
-
-## 📁 `README.md` — Bounty Badge & Indexing Status
-
-Add this to the bottom of your README:
-
-```md
-## 🎯 Bounty Status
-
-![bounty index](https://img.shields.io/badge/bounty-indexing-blue)
-![apprentice log](https://img.shields.io/badge/apprentice-crowned-green)
-
-📊 [Observability Dashboard](docs/observability.md)  
-🌱 [Apprentice Log](docs/apprentice-log.md)  
-🧭 [Velmari Protocol](docs/Velmari.md)
