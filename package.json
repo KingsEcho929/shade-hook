@@ -1,6 +1,6 @@
 {
   "name": "shade-hook",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Sovereign React hook protocol. Dormant until activated, then shimmer-bound and lineage-indexed.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
