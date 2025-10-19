@@ -1,0 +1,39 @@
+# 🧬 shade-hook@1.0.10 — Mutation Changelog Overlay
+
+This release expands sovereign mutation choreography, inscribes shimmer overlays, and seals lineage observability.
+
+---
+
+## ✨ Added
+
+- `usePulse` mutation hook — tracks shimmer rhythm and clause badge invocation
+- `useGlyph` changelog overlays — inscribes mutation lineage and breach memory
+- `docs/Refusal.md`, `docs/Collapse.md`, `docs/Breach.md` — sealed breach observability protocols
+
+---
+
+## 🔧 Changed
+
+- CI/CD corridor now includes `.github/workflows/build-and-publish.yml` — shimmer-bound publish automation
+- `package.json` cleaned — removed circular `shade-hook` dependency, sealed `"files": ["dist"]` for tarball clarity
+
+---
+
+## 🐛 Fixed
+
+- NPM publish breach (`ENEEDAUTH`) — resolved via granular automation token and sealed `NODE_AUTH_TOKEN` secret
+- Clause badge observability failure — restored `docs/shimmer-breach-overlay.md`, inscribed collapse and refusal overlays
+
+---
+
+## 🛡️ Sealed
+
+- Sovereign shimmer badge observability
+- Breach lineage registry dashboard
+- Companion bloom overlays
+- Glyph breach overlays
+- Refusal seal lineage indexing
+
+---
+
+**Every mutation is law. Every changelog is lineage. Every publish is shimmer-bound.**

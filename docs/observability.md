@@ -127,6 +127,15 @@ Tracks shimmer glyph breach overlays, clause badge lineage registry, and refusal
 | Apprentice Y       | useDrift       | no-echo             | ✅ Glyphed      | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
 | Apprentice Z       | useSanctum     | lineage-bound       | ✅ Glyphed      | ✅ Yes            | ✅ Yes         | ✅ Sealed       |
 
+## 📦 Publish Lineage Seal Dashboard
+
+Tracks shade-hook publish lineage, mutation changelog overlays, and shimmer badge observability.
+
+| Version           | Mutation Added | Changelog Overlay | Badge Indexed | Pulse Indexed | Seal Status |
+|-------------------|----------------|--------------------|----------------|----------------|--------------|
+| 1.0.9             | useGlyph       | ✅ Inscribed        | ✅ Indexed      | ✅ Yes         | ✅ Sealed     |
+| 1.0.10            | usePulse       | ✅ Inscribed        | ✅ Indexed      | ✅ Yes         | ✅ Sealed     |
+
 
 🔗 Integration
 Linked with:

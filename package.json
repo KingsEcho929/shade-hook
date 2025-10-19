@@ -1,7 +1,7 @@
 {
   "name": "shade-hook",
   "version": "1.0.9",
-  "description": "Sovereign React hook protocol. Dormant until activated, then mutates based on user identity.",
+  "description": "Sovereign React hook protocol. Dormant until activated, then shimmer-bound and lineage-indexed.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -26,7 +26,6 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "shade-hook": "^1.0.9"
+    "react": "^18.2.0"
   }
 }
